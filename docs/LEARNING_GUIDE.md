@@ -279,7 +279,7 @@ These are finite tests on this game's distribution, not proof of perfect
 play. Training seeds begin above 1,000,000; checkpoint selection uses
 10000–10004; the first test uses 20000–20019; the extra test uses 30000–30099.
 
-![Measured learning curve](runs/demo/learning.png)
+![Measured learning curve](../runs/demo/learning.png)
 
 The noisy training line is expected: exploration can ruin a good policy's
 episode. The pink line evaluates with exploration disabled. The last
