@@ -1,0 +1,641 @@
+{
+  "completed_episodes": 350,
+  "decisions": 20197,
+  "wall_seconds": 11.75,
+  "interrupted": false,
+  "test_seeds": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    20016,
+    20017,
+    20018,
+    20019
+  ],
+  "policies": {
+    "random_actions": {
+      "episodes": 20,
+      "mean_reward": 2.4125,
+      "mean_cleared": 1.4,
+      "mean_seconds": 2.7758333333333334,
+      "survival_rate": 0,
+      "results": [
+        {
+          "seed": 20000,
+          "reward": 0.85,
+          "cleared": 1,
+          "seconds": 2.45,
+          "survived_limit": false
+        },
+        {
+          "seed": 20001,
+          "reward": 14.9,
+          "cleared": 4,
+          "seconds": 6.833333333333333,
+          "survived_limit": false
+        },
+        {
+          "seed": 20002,
+          "reward": 0.61,
+          "cleared": 1,
+          "seconds": 2.25,
+          "survived_limit": false
+        },
+        {
+          "seed": 20003,
+          "reward": 4.64,
+          "cleared": 2,
+          "seconds": 3.1333333333333333,
+          "survived_limit": false
+        },
+        {
+          "seed": 20004,
+          "reward": -4.06,
+          "cleared": 0,
+          "seconds": 0.8333333333333334,
+          "survived_limit": false
+        },
+        {
+          "seed": 20005,
+          "reward": 9.33,
+          "cleared": 3,
+          "seconds": 4.616666666666666,
+          "survived_limit": false
+        },
+        {
+          "seed": 20006,
+          "reward": 0.46,
+          "cleared": 1,
+          "seconds": 2.15,
+          "survived_limit": false
+        },
+        {
+          "seed": 20007,
+          "reward": -4.07,
+          "cleared": 0,
+          "seconds": 0.8,
+          "survived_limit": false
+        },
+        {
+          "seed": 20008,
+          "reward": 10.09,
+          "cleared": 3,
+          "seconds": 5.25,
+          "survived_limit": false
+        },
+        {
+          "seed": 20009,
+          "reward": 0.57,
+          "cleared": 1,
+          "seconds": 2.216666666666667,
+          "survived_limit": false
+        },
+        {
+          "seed": 20010,
+          "reward": 8.82,
+          "cleared": 3,
+          "seconds": 4.166666666666667,
+          "survived_limit": false
+        },
+        {
+          "seed": 20011,
+          "reward": -3.71,
+          "cleared": 0,
+          "seconds": 1.1,
+          "survived_limit": false
+        },
+        {
+          "seed": 20012,
+          "reward": 1.1,
+          "cleared": 1,
+          "seconds": 2.683333333333333,
+          "survived_limit": false
+        },
+        {
+          "seed": 20013,
+          "reward": 0.21,
+          "cleared": 1,
+          "seconds": 1.9166666666666667,
+          "survived_limit": false
+        },
+        {
+          "seed": 20014,
+          "reward": 0.43,
+          "cleared": 1,
+          "seconds": 2.1,
+          "survived_limit": false
+        },
+        {
+          "seed": 20015,
+          "reward": -3.85,
+          "cleared": 0,
+          "seconds": 0.9833333333333333,
+          "survived_limit": false
+        },
+        {
+          "seed": 20016,
+          "reward": 0.31,
+          "cleared": 1,
+          "seconds": 2.0,
+          "survived_limit": false
+        },
+        {
+          "seed": 20017,
+          "reward": -3.91,
+          "cleared": 0,
+          "seconds": 0.9333333333333333,
+          "survived_limit": false
+        },
+        {
+          "seed": 20018,
+          "reward": 4.95,
+          "cleared": 2,
+          "seconds": 3.4166666666666665,
+          "survived_limit": false
+        },
+        {
+          "seed": 20019,
+          "reward": 10.58,
+          "cleared": 3,
+          "seconds": 5.683333333333334,
+          "survived_limit": false
+        }
+      ]
+    },
+    "initial": {
+      "episodes": 20,
+      "mean_reward": 2.385,
+      "mean_cleared": 1.4,
+      "mean_seconds": 2.7591666666666668,
+      "survival_rate": 0,
+      "results": [
+        {
+          "seed": 20000,
+          "reward": 0.94,
+          "cleared": 1,
+          "seconds": 2.55,
+          "survived_limit": false
+        },
+        {
+          "seed": 20001,
+          "reward": 0.94,
+          "cleared": 1,
+          "seconds": 2.55,
+          "survived_limit": false
+        },
+        {
+          "seed": 20002,
+          "reward": 9.25,
+          "cleared": 3,
+          "seconds": 4.55,
+          "survived_limit": false
+        },
+        {
+          "seed": 20003,
+          "reward": -3.99,
+          "cleared": 0,
+          "seconds": 0.8666666666666667,
+          "survived_limit": false
+        },
+        {
+          "seed": 20004,
+          "reward": -4.03,
+          "cleared": 0,
+          "seconds": 0.8333333333333334,
+          "survived_limit": false
+        },
+        {
+          "seed": 20005,
+          "reward": 9.25,
+          "cleared": 3,
+          "seconds": 4.55,
+          "survived_limit": false
+        },
+        {
+          "seed": 20006,
+          "reward": 4.83,
+          "cleared": 2,
+          "seconds": 3.316666666666667,
+          "survived_limit": false
+        },
+        {
+          "seed": 20007,
+          "reward": 9.37,
+          "cleared": 3,
+          "seconds": 4.65,
+          "survived_limit": false
+        },
+        {
+          "seed": 20008,
+          "reward": 0.96,
+          "cleared": 1,
+          "seconds": 2.566666666666667,
+          "survived_limit": false
+        },
+        {
+          "seed": 20009,
+          "reward": 19.12,
+          "cleared": 5,
+          "seconds": 7.9,
+          "survived_limit": false
+        },
+        {
+          "seed": 20010,
+          "reward": 4.73,
+          "cleared": 2,
+          "seconds": 3.2333333333333334,
+          "survived_limit": false
+        },
+        {
+          "seed": 20011,
+          "reward": -3.58,
+          "cleared": 0,
+          "seconds": 1.2333333333333334,
+          "survived_limit": false
+        },
+        {
+          "seed": 20012,
+          "reward": 0.94,
+          "cleared": 1,
+          "seconds": 2.55,
+          "survived_limit": false
+        },
+        {
+          "seed": 20013,
+          "reward": 0.21,
+          "cleared": 1,
+          "seconds": 1.9166666666666667,
+          "survived_limit": false
+        },
+        {
+          "seed": 20014,
+          "reward": 0.37,
+          "cleared": 1,
+          "seconds": 2.05,
+          "survived_limit": false
+        },
+        {
+          "seed": 20015,
+          "reward": 1.0,
+          "cleared": 1,
+          "seconds": 2.6,
+          "survived_limit": false
+        },
+        {
+          "seed": 20016,
+          "reward": -3.93,
+          "cleared": 0,
+          "seconds": 0.9166666666666666,
+          "survived_limit": false
+        },
+        {
+          "seed": 20017,
+          "reward": 0.32,
+          "cleared": 1,
+          "seconds": 2.033333333333333,
+          "survived_limit": false
+        },
+        {
+          "seed": 20018,
+          "reward": 4.81,
+          "cleared": 2,
+          "seconds": 3.3,
+          "survived_limit": false
+        },
+        {
+          "seed": 20019,
+          "reward": -3.81,
+          "cleared": 0,
+          "seconds": 1.0166666666666666,
+          "survived_limit": false
+        }
+      ],
+      "checkpoint_metadata": {
+        "episode": 0,
+        "seed": 7
+      }
+    },
+    "best": {
+      "episodes": 20,
+      "mean_reward": 100.1995,
+      "mean_cleared": 22.25,
+      "mean_seconds": 28.644166666666667,
+      "survival_rate": 0.95,
+      "results": [
+        {
+          "seed": 20000,
+          "reward": 101.34,
+          "cleared": 22,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20001,
+          "reward": 101.34,
+          "cleared": 22,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20002,
+          "reward": 104.31,
+          "cleared": 23,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20003,
+          "reward": 107.28,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20004,
+          "reward": 113.22,
+          "cleared": 26,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20005,
+          "reward": 107.25,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20006,
+          "reward": 107.28,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20007,
+          "reward": 116.19,
+          "cleared": 27,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20008,
+          "reward": 101.34,
+          "cleared": 22,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20009,
+          "reward": 98.37,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20010,
+          "reward": 107.28,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20011,
+          "reward": 1.4,
+          "cleared": 1,
+          "seconds": 2.8833333333333333,
+          "survived_limit": false
+        },
+        {
+          "seed": 20012,
+          "reward": 98.37,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20013,
+          "reward": 110.25,
+          "cleared": 25,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20014,
+          "reward": 110.25,
+          "cleared": 25,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20015,
+          "reward": 98.37,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20016,
+          "reward": 107.28,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20017,
+          "reward": 104.28,
+          "cleared": 23,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20018,
+          "reward": 110.22,
+          "cleared": 25,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20019,
+          "reward": 98.37,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        }
+      ],
+      "checkpoint_metadata": {
+        "episode": 120,
+        "seed": 7,
+        "validation_reward": 104.292
+      }
+    },
+    "last": {
+      "episodes": 20,
+      "mean_reward": 104.529,
+      "mean_cleared": 23.15,
+      "mean_seconds": 30.0,
+      "survival_rate": 1,
+      "results": [
+        {
+          "seed": 20000,
+          "reward": 101.01,
+          "cleared": 22,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20001,
+          "reward": 100.98,
+          "cleared": 22,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20002,
+          "reward": 104.04,
+          "cleared": 23,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20003,
+          "reward": 107.19,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20004,
+          "reward": 113.1,
+          "cleared": 26,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20005,
+          "reward": 107.1,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20006,
+          "reward": 107.22,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20007,
+          "reward": 116.19,
+          "cleared": 27,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20008,
+          "reward": 101.01,
+          "cleared": 22,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20009,
+          "reward": 97.98,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20010,
+          "reward": 107.07,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20011,
+          "reward": 92.01,
+          "cleared": 19,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20012,
+          "reward": 98.04,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20013,
+          "reward": 110.13,
+          "cleared": 25,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20014,
+          "reward": 110.19,
+          "cleared": 25,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20015,
+          "reward": 97.98,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20016,
+          "reward": 107.04,
+          "cleared": 24,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20017,
+          "reward": 104.1,
+          "cleared": 23,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20018,
+          "reward": 110.19,
+          "cleared": 25,
+          "seconds": 30.0,
+          "survived_limit": true
+        },
+        {
+          "seed": 20019,
+          "reward": 98.01,
+          "cleared": 21,
+          "seconds": 30.0,
+          "survived_limit": true
+        }
+      ],
+      "checkpoint_metadata": {
+        "episode": 350,
+        "seed": 7,
+        "steps": 20197,
+        "interrupted": false
+      }
+    }
+  }
+}

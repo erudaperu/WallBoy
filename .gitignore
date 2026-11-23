@@ -1,0 +1,15 @@
+.venv/
+.venv-*/
+.cache/
+__pycache__/
+*.py[cod]
+**/.mpl-cache/
+.env
+.env.*
+!.env.example
+runs/*
+!runs/demo/
+exports/*
+!exports/demo/
+exports/**/verify
+.DS_Store
